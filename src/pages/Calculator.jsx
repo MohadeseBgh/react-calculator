@@ -1,12 +1,16 @@
 import OutPut from "../components/outPut";
 import Buttons from "../components/buttons";
 import Memories from "./Memories";
+import InPut from "../components/inPut";
 
 const Calculator = () => {
   return(
       <div className={"md:flex md:flex-row md:items-center md:content-center md:justify-center "}>
           <div className={"flex flex-col w-72 h-[460px] bg-black rounded-lg overflow-hidden "}>
-              <div className={"basis-3/12 bg-[#3C4048] "}>
+              <div className={"basis-2/12 bg-[#3C4048] "}>
+                  <InPut/>
+              </div>
+              <div className={"basis-1/12 bg-[#3C4048] "}>
                   <OutPut/>
               </div>
               <div className={"basis-9/12"}>

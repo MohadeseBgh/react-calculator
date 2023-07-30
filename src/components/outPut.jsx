@@ -1,7 +1,7 @@
 const OutPut = () => {
   return(
-      <div>
-          ertyuio
+      <div className={""}>
+          87
       </div>
   );
 }
