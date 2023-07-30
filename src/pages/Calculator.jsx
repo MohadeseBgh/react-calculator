@@ -1,6 +1,5 @@
 import OutPut from "../components/outPut";
 import Buttons from "../components/buttons";
-import Memories from "./Memories";
 import InPut from "../components/inPut";
 
 const Calculator = () => {
